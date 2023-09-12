@@ -2,10 +2,14 @@
 //
 
 #include <iostream>
+#include "Cpp_Basic.h"
+#include "io.h"
+
+#define PLUS (2 + 3 * 2)
 
 int main()
 {
-    std::cout << "Hello Sesac!\n";
+    cout << "Hello Sesac!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
