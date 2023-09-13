@@ -138,7 +138,10 @@
     <ClCompile Include="..\..\..\..\Downloads\Ch06_String.cpp" />
     <ClCompile Include="..\..\..\..\Downloads\Ch07_Structure.cpp" />
     <ClCompile Include="..\..\..\..\Downloads\Practice.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\random.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\roulette.cpp" />
     <ClCompile Include="..\..\..\..\Downloads\Test.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\upndown.cpp" />
     <ClCompile Include="Ch01_Variable.cpp" />
     <ClCompile Include="Cpp_Basic.cpp" />
     <ClCompile Include="Guide.md" />

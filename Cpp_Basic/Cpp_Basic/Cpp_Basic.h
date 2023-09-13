@@ -28,6 +28,10 @@ void MultipleCalculate();
 void Receipt();
 void Star();
 
+void Random();
+void UpNDown();
+void Roulette();
+
 void Weight();
 void CountUp();
 void Return();
