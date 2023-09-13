@@ -28,9 +28,6 @@ C:\Users\user\Downloads\Ch06-1_Example.cpp(26,13): message : see usage of 'Alpha
 C:\Users\user\Downloads\Ch06-1_Example.cpp(28,14): error C3863: array type 'int [AlphaSize]' is not assignable
 C:\Users\user\Downloads\Ch06-1_Example.cpp(35,20): error C3863: array type 'int [AlphaSize]' is not assignable
 C:\Users\user\Downloads\Ch06-1_Example.cpp(45,22): warning C4552: '<<': result of expression not used
-  Test.cpp
-  upndown.cpp
-C:\Users\user\Downloads\upndown.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
   Guide.md
 C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Guide.md(1,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Guide.md(1,17): error C2065: '네이밍': undeclared identifier
