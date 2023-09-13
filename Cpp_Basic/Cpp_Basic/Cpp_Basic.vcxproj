@@ -138,8 +138,8 @@
     <ClCompile Include="Ch06-1_Example.cpp" />
     <ClCompile Include="Ch06_String.cpp" />
     <ClCompile Include="Ch07_Structure.cpp" />
+    <ClCompile Include="Ch08_Pointer.cpp" />
     <ClCompile Include="Cpp_Basic.cpp" />
-    <ClCompile Include="Guide.md" />
     <ClCompile Include="Practice.cpp" />
     <ClCompile Include="random.cpp" />
     <ClCompile Include="roulette.cpp" />
@@ -153,9 +153,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Guide.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Object Include="random.obj" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

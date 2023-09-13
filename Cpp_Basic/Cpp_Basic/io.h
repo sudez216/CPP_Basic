@@ -1,6 +1,6 @@
-#pragma once
+ï»¿#pragma once
 
-// ÀÔÃâ·Â Çì´õÆÄÀÏ
+// ì…ì¶œë ¥ í—¤ë”íŒŒì¼
 #include <iostream>
-// std namespace »ç¿ë Á¤ÀÇ
+// std namespace ì‚¬ìš© ì •ì˜
 using namespace std;

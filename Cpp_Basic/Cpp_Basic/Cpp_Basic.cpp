@@ -10,7 +10,9 @@
 int main()
 {
     //cout << "Hello Sesac!\n";
-    int GuGuDan(int Dan);
+    //int GuGuDan(int Dan);
+
+    PointerDefine();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

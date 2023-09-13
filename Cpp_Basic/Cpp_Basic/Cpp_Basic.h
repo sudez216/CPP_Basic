@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 void OvenTime();
 void Quadrant();
@@ -50,3 +50,4 @@ void AlphaNumber();
 void Enum();
 void TwoDimension();
 void Va();
+void PointerDefine();

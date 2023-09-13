@@ -23,7 +23,11 @@ void AlphaNumber() {
   char Alpha[] = "abcdefghijklmnopqrstuvwxyz";
   int AlphaSize = sizeof(Alpha)-1;
 
-  int Check[AlphaSize];
+  // 배열 변수 선언 시 크기 인덱스는 변수로 지정할 수 없음
+  // C++ 컴파일 언어 => 컴파일하는 시간에 배열 크기가 결정 => 크기를 변수로 지정하면 크기를 지정불가
+  // int Check[AlphaSize]; 
+  
+  int Check[26];
   for (int i = 0; i < AlphaSize; i++) {
     Check[i] = -1;
   }
