@@ -143,12 +143,34 @@
     <ClCompile Include="..\..\..\..\Downloads\Test.cpp" />
     <ClCompile Include="..\..\..\..\Downloads\upndown.cpp" />
     <ClCompile Include="Ch01_Variable.cpp" />
+    <ClCompile Include="Ch02_Operation.cpp" />
+    <ClCompile Include="Ch03_Statement.cpp" />
+    <ClCompile Include="Ch04-1_Example.cpp" />
+    <ClCompile Include="Ch04-2_Example.cpp" />
+    <ClCompile Include="Ch05-1_Example.cpp" />
+    <ClCompile Include="Ch05-2_Sort.cpp" />
+    <ClCompile Include="Ch05_Array.cpp" />
+    <ClCompile Include="Ch06-1_Example.cpp" />
+    <ClCompile Include="Ch06_String.cpp" />
+    <ClCompile Include="Ch07_Structure.cpp" />
     <ClCompile Include="Cpp_Basic.cpp" />
     <ClCompile Include="Guide.md" />
+    <ClCompile Include="Practice.cpp" />
+    <ClCompile Include="random.cpp" />
+    <ClCompile Include="roulette.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="upndown.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cpp_Basic.h" />
     <ClInclude Include="io.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Guide.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="random.obj" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

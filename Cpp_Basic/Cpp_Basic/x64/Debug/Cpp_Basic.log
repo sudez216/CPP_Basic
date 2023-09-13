@@ -1,4 +1,19 @@
-﻿  Ch05-1_Example.cpp
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Ch02_Operation.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\Ch02_Operation.cpp, Ch02_Operation.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Ch03_Statement.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\Ch03_Statement.cpp, Ch03_Statement.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Ch04-1_Example.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\Ch04-1_Example.cpp, Ch04-1_Example.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Ch04-2_Example.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\Ch04-2_Example.cpp, Ch04-2_Example.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Ch05-1_Example.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\Ch05-1_Example.cpp, Ch05-1_Example.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Ch05-2_Sort.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\Ch05-2_Sort.cpp, Ch05-2_Sort.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Ch05_Array.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\Ch05_Array.cpp, Ch05_Array.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Ch06-1_Example.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\Ch06-1_Example.cpp, Ch06-1_Example.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Ch06_String.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\Ch06_String.cpp, Ch06_String.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Ch07_Structure.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\Ch07_Structure.cpp, Ch07_Structure.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Practice.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\Practice.cpp, Practice.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of random.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\random.cpp, random.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of roulette.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\roulette.cpp, roulette.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Test.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\Test.cpp, Test.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of upndown.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\Downloads\upndown.cpp, upndown.cpp.
+  Ch05-1_Example.cpp
 C:\Users\user\Downloads\Ch05-1_Example.cpp(9,14): error C2131: expression did not evaluate to a constant
 C:\Users\user\Downloads\Ch05-1_Example.cpp(9,14): message : failure was caused by a read of a variable outside its lifetime
 C:\Users\user\Downloads\Ch05-1_Example.cpp(9,14): message : see usage of 'Counter'
@@ -28,6 +43,45 @@ C:\Users\user\Downloads\Ch06-1_Example.cpp(26,13): message : see usage of 'Alpha
 C:\Users\user\Downloads\Ch06-1_Example.cpp(28,14): error C3863: array type 'int [AlphaSize]' is not assignable
 C:\Users\user\Downloads\Ch06-1_Example.cpp(35,20): error C3863: array type 'int [AlphaSize]' is not assignable
 C:\Users\user\Downloads\Ch06-1_Example.cpp(45,22): warning C4552: '<<': result of expression not used
+  Ch02_Operation.cpp
+  Ch03_Statement.cpp
+  Ch04-1_Example.cpp
+  Ch04-2_Example.cpp
+  Ch05-1_Example.cpp
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(9,14): error C2131: expression did not evaluate to a constant
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(9,14): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(9,14): message : see usage of 'Counter'
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(13,9): warning C4552: '>>': result of expression not used
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(42,14): error C2131: expression did not evaluate to a constant
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(42,14): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(42,14): message : see usage of 'Counter'
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(46,9): warning C4552: '>>': result of expression not used
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(53,25): warning C4552: '<<': result of expression not used
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(69,19): error C2131: expression did not evaluate to a constant
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(69,19): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(69,19): message : see usage of 'Counter'
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(72,20): error C3863: array type 'int [Counter]' is not assignable
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(76,25): error C2131: expression did not evaluate to a constant
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(76,18): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(76,18): message : see usage of 'Counter'
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(79,9): warning C4552: '>>': result of expression not used
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(83,14): error C2131: expression did not evaluate to a constant
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(83,14): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(83,14): message : see usage of 'Counter'
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(86,14): error C3863: array type 'bool [Counter]' is not assignable
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch05-1_Example.cpp(95,18): error C3863: array type 'bool [Counter]' is not assignable
+  Ch05-2_Sort.cpp
+  Ch05_Array.cpp
+  Ch06-1_Example.cpp
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch06-1_Example.cpp(26,13): error C2131: expression did not evaluate to a constant
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch06-1_Example.cpp(26,13): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch06-1_Example.cpp(26,13): message : see usage of 'AlphaSize'
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch06-1_Example.cpp(28,14): error C3863: array type 'int [AlphaSize]' is not assignable
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch06-1_Example.cpp(35,20): error C3863: array type 'int [AlphaSize]' is not assignable
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch06-1_Example.cpp(45,22): warning C4552: '<<': result of expression not used
+  Ch06_String.cpp
+  Ch07_Structure.cpp
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Ch07_Structure.cpp(66,5): warning C4102: 'Default': unreferenced label
   Guide.md
 C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Guide.md(1,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Guide.md(1,17): error C2065: '네이밍': undeclared identifier
@@ -137,4 +191,10 @@ C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Guide.md(174,1): error C4430:
 C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Guide.md(173,8): error C2146: syntax error: missing ';' before identifier '호출'
 C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Guide.md(174,15): error C2059: syntax error: '<='
 C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Guide.md(175,1): fatal  error C1004: unexpected end-of-file found
+  Practice.cpp
+  random.cpp
+  roulette.cpp
+  Test.cpp
+  upndown.cpp
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\upndown.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
   Generating Code...
