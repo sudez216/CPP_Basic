@@ -90,4 +90,13 @@
   <ItemGroup>
     <Text Include="Guide.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Guide.md" />
+    <None Include="Basic.md">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="random.obj" />
+  </ItemGroup>
 </Project>
