@@ -140,6 +140,7 @@
     <ClCompile Include="Ch07_Structure.cpp" />
     <ClCompile Include="Ch08_Pointer.cpp" />
     <ClCompile Include="Ch09_Dynamic.cpp" />
+    <ClCompile Include="Ch10_Class.cpp" />
     <ClCompile Include="Cpp_Basic.cpp" />
     <ClCompile Include="MiniProject_02.cpp" />
     <ClCompile Include="Practice.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="upndown.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ch10_Class.h" />
     <ClInclude Include="Cpp_Basic.h" />
     <ClInclude Include="io.h" />
     <ClInclude Include="main.h" />
@@ -159,9 +161,6 @@
   <ItemGroup>
     <None Include="Basic.md" />
     <None Include="Guide.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Object Include="random.obj" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

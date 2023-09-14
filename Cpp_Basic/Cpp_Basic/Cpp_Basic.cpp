@@ -5,6 +5,8 @@
 #include "Cpp_Basic.h"
 #include "io.h"
 
+#include "Ch10_Class.h"
+
 #define PLUS (2 + 3 * 2)
 
 int main()
@@ -16,7 +18,15 @@ int main()
     //Ary();
     //CountNumber();
     //BallSwap();
-    Weight();
+    //Weight();
+    
+    Car Sonata(80);
+
+    Sonata.DriveVelocity();
+    Sonata.DriveTime();
+
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
