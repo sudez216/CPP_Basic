@@ -16,23 +16,25 @@ void Weight() {
 
     if (Day >= 1 && Day <= 10000) {
       break;
-    } else {
+    } 
+    else {
       cout << "다시 입력해주세요" << endl;
     }
   }
-  while (true) {
+   while (true) {
 
-    cout << " 섭취한 칼로리 : " << endl;
+    cout << "섭취한 칼로리 : " << endl;
     cin >> Calorie;
 
     if (Calorie >= 1 && Weight <= 10000) {
-      break;
-    } else {
+       break;
+    } 
+    else {
       cout << "다시 입력해주세요" << endl;
     }
   }
   while (true) {
-    cout << " 걸음 수 : " << endl;
+    cout << "걸음 수 : " << endl;
     cin >> Step;
 
     if (Step >= 1 && Step <= 10000) {
@@ -40,22 +42,25 @@ void Weight() {
     } else {
       cout << "다시 입력해주세요" << endl;
     }
-    // int FinalWeight = (  )
-  }
+    }
   while (true) {
     if (Weight >= 10 && Weight <= 80) {
       break;
     }
-  }
-  if (Calorie > Step == Weight + 1 && Calorie < Step == Weight - 1) {
+    else if (Calorie > Step == Weight + 1 && Calorie < Step == Weight - 1) {
+
+    }
     // for(int i= 0; i<=Weight; i++)
     //   {
 
     //   }
-  }
 
-  cout << Weight << " kg " << endl;
+    cout << Weight << " kg " << endl;
+  }
+  
 }
+
+
 void CountUp() {
   int CountUp = 0, StartNum = 0, EndNum = 0;
 

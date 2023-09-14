@@ -2,12 +2,18 @@
 #include "main.h"
 #include <cstdlib>
 
-int Va(int Dan)
-{
-  int result = 0;
-  for(int i=1; i<=9; i++)
-  {
-  result += Dan * i;
-  }
-  return result;
-}
+//void Ary()
+//{
+//	int Co = 0;
+//
+//	cout << "정수 입력 : ";
+//	cin >> Co;
+//
+//	int Number[100];
+//	for (int i = 0; i <Co; i++)
+//	{
+//		cout << "숫자를 입력해주세요 : ";
+//		cin >> "Co[100]";
+//	}
+//	
+//}

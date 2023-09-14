@@ -5,10 +5,10 @@ void IndexChar() {
   char word[20];
   int Number;
 
-  cout << "원하는 단어를 입력해주세요.";
+  cout << "원하는 단어를 입력해주세요 : ";
   cin >> word;
 
-  cout << "출력을 원하는 자리 수를 입력해주세요.";
+  cout << "출력을 원하는 자리 수를 입력해주세요 : ";
   cin >> Number;
 
   cout << word[Number - 1];
@@ -17,6 +17,9 @@ void IndexChar() {
 void AlphaNumber() {
   char Word[20];
   int WordSize = sizeof(Word)-1;
+
+  // cout << WordSize << endl;
+
   cout << "원하는 단어를 입력해주세요 : ";
   cin >> Word;
 
@@ -27,16 +30,17 @@ void AlphaNumber() {
   // C++ 컴파일 언어 => 컴파일하는 시간에 배열 크기가 결정 => 크기를 변수로 지정하면 크기를 지정불가
   // int Check[AlphaSize]; 
   
-  int Check[26];
+  // int Check[26];
+  int* pCheck = new int[AlphaSize];
   for (int i = 0; i < AlphaSize; i++) {
-    Check[i] = -1;
+    pCheck[i] = -1;
   }
 
   for (int i = 0; i < WordSize; i++) {
     for (int j = 0; j < AlphaSize; j++) {
       if (Word[i] == Alpha[j]) {
-        if(Check[j] == -1){
-          Check[j] = i;
+        if(pCheck[j] == -1){
+          pCheck[j] = i;
         }
       }
     }
@@ -46,6 +50,6 @@ void AlphaNumber() {
   cout << AlphaSize << endl;
   
   for (int i = 0; i < AlphaSize; i++) {
-    cout << Check[i] << " ";
+    cout << pCheck[i] << " ";
   }
 }

@@ -49,5 +49,9 @@ void IndexChar();
 void AlphaNumber();
 void Enum();
 void TwoDimension();
-void Va();
 void PointerDefine();
+void DynamicVariable();
+void BallInsert();
+void BallSwap();
+
+void Ary();

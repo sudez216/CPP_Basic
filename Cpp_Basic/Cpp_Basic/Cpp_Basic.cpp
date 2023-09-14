@@ -11,8 +11,12 @@ int main()
 {
     //cout << "Hello Sesac!\n";
     //int GuGuDan(int Dan);
-
-    PointerDefine();
+    //TwoDimension();
+    //PointerDefine();
+    //Ary();
+    //CountNumber();
+    //BallSwap();
+    Weight();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
