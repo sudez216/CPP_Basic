@@ -6,6 +6,7 @@
 #include "io.h"
 
 #include "Ch10_Class.h"
+#include "Vehicle.h"
 
 #define PLUS (2 + 3 * 2)
 
@@ -20,13 +21,16 @@ int main()
     //BallSwap();
     //Weight();
     
-    Car Sonata(80);
+    Vehicle Ray(2023, 12000000);
+    Ray.PrintPrice();
 
-    Sonata.DriveVelocity();
-    Sonata.DriveTime();
+    Ray.Price = 10000000;
+    Ray.PrintPrice();
 
+    Ray.SetYear(2021);
+    Ray.PrintYear();
 
-
+    cout << Ray.GetYear() << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
