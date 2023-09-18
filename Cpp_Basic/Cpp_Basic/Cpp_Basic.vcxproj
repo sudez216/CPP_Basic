@@ -127,6 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Arithmatic.cpp" />
+    <ClCompile Include="Atv.cpp" />
+    <ClCompile Include="Bike.cpp" />
     <ClCompile Include="Ch01_Variable.cpp" />
     <ClCompile Include="Ch02_Operation.cpp" />
     <ClCompile Include="Ch03_Statement.cpp" />
@@ -151,6 +155,11 @@
     <ClCompile Include="upndown.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="Arithmatic.h" />
+    <ClInclude Include="Atv.h" />
+    <ClInclude Include="Auto.h" />
+    <ClInclude Include="Bike.h" />
     <ClInclude Include="Ch10_Class.h" />
     <ClInclude Include="Cpp_Basic.h" />
     <ClInclude Include="io.h" />
