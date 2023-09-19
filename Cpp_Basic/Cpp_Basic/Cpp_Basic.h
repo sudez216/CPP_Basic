@@ -55,3 +55,8 @@ void BallInsert();
 void BallSwap();
 
 void Ary();
+void ArrayClass();
+void StringClass();
+void VectorClass();
+
+void BubbleSort2();

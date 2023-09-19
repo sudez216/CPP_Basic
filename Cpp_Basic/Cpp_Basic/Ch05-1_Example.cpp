@@ -70,7 +70,7 @@ void MissingNumber()
 
   // 전체 학생의 번호 데이터 Set
   // int TotalMember[Counter];
-  int* pTotalMember = new int[Counter];
+  int* pTotalMember = new int[Counter];                    // search
   for(int i=0; i<Counter; i++)
   {
     pTotalMember[i] = i+1;

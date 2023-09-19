@@ -66,10 +66,14 @@ int main()
 
     Auto Avante(2024, 10000000);
 
+    cout << "------------------------------------" << endl;
 
+    //ArrayClass();
+    //StringClass();
+    //VectorClass();
+    BubbleSort2();
 
-
-
+    cout << "------------------------------------" << endl;
 
 
 
