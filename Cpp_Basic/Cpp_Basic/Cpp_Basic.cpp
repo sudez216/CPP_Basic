@@ -17,15 +17,6 @@
 
 int main()
 {
-    //cout << "Hello Sesac!\n";
-    //int GuGuDan(int Dan);
-    //TwoDimension();
-    //PointerDefine();
-    //Ary();
-    //CountNumber();
-    //BallSwap();
-    //Weight();
-
     // class 정적 선언
     Vehicle Ray(2023, 12000000);
     Ray.PrintPrice();
@@ -37,6 +28,8 @@ int main()
     Ray.PrintYear();
 
     cout << Ray.GetYear() << endl;
+
+    Vehicle Sonata;
 
     // class 동적 선언(생성)
     Animal* Dog = new Animal;
@@ -67,7 +60,19 @@ int main()
 
     // 생성자가 명시적으로 선언
     // 자식 클래스 선언 : 명시적 선언
+
+    cout << "------------------------------------" << endl;
     Auto Mobile();
 
-    Mobile().PrintPrice();
+    Auto Avante(2024, 10000000);
+
+
+
+
+
+
+
+
+
+
 }

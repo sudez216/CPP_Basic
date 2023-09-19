@@ -8,10 +8,11 @@ private:
 public:
 	int Price;
 
-	// Constructor(持失切) 識情
+	// Constructor(持失切) 誤獣旋 識情
+	Vehicle(); // Default Constructor
 	Vehicle(int _Year, int _Price);
 
-	//Destructor(社瑚切)
+	//Destructor(社瑚切) 識情
 	~Vehicle();
 
 	// Method

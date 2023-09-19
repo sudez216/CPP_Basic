@@ -1,6 +1,3 @@
-﻿  Atv.cpp
-  Bike.cpp
-  Cpp_Basic.cpp
-  Generating Code...
-Cpp_Basic.obj : error LNK2019: unresolved external symbol "class Auto __cdecl Mobile(void)" (?Mobile@@YA?AVAuto@@XZ) referenced in function main
-C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\x64\Debug\Cpp_Basic.exe : fatal error LNK1120: 1 unresolved externals
+﻿  Cpp_Basic.cpp
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Cpp_Basic.cpp(65,10): warning C4930: 'Auto Mobile(void)': prototyped function not called (was a variable definition intended?)
+  Cpp_Basic.vcxproj -> C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\x64\Debug\Cpp_Basic.exe

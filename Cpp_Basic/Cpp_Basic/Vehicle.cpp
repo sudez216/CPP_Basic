@@ -4,6 +4,11 @@ using namespace std;
 #include "Vehicle.h"
 
 // Constructor 정의
+Vehicle::Vehicle()
+{
+    cout << "Vehicle Constructor" << endl;
+}
+
 Vehicle::Vehicle(int _Year, int _Price)
 {
     Year = _Year;
@@ -16,7 +21,7 @@ Vehicle::Vehicle(int _Year, int _Price)
 // Destructor 정의
 Vehicle::~Vehicle()
 {
-    cout << "자동차 확인";
+    cout << "자동차 확인" << endl;
 }
 
 void Vehicle::PrintYear()
