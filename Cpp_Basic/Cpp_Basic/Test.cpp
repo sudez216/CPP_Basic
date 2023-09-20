@@ -182,3 +182,30 @@ void Dice()
   cout << Dice1 << Dice2 << Dice3 << Dice4 << "x p" << endl;
     
 }
+
+void Dice(int a, int b, int c, int d)
+{
+    // 1
+    if (a == b && b == c && c == d) {}
+
+    // 2
+    if (a == b && b == c && c != d) {}
+    if (b == c && c == d && d != a) {}
+    if (c == d && d == a && a != b) {}
+    if (d == a && a == b && b != c) {}
+
+    // 3 
+    if (a == b && c == d) {}
+    if (a == c && b == d) {}
+    if (a == d && b == c) {}
+
+    // 4 
+    if (a == b && c != d && a != c && b != c && a != d && b != d) {}
+    if (a != b && b != c && c != d && a != c && b != d && a != d) {}
+
+}
+
+void Dice(int a, int b, int c, int d)
+{
+
+}

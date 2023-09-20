@@ -60,3 +60,12 @@ void StringClass();
 void VectorClass();
 
 void BubbleSort2();
+
+void SumNumber(int a, int b);
+float SumNumber(float a, float b);
+
+template <typename T>
+T SumType(T a, T b)
+{
+	return (a + b);
+}
