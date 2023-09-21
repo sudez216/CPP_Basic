@@ -118,5 +118,6 @@ int main()
     cout << SumType(10, 20) << endl;
     cout << SumType(10.457, 20.321) << endl;
 
+    Dice(5,2,6,1);
 
 }
